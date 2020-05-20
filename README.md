@@ -16,5 +16,5 @@ First you will need to install package **devtools** if you don't have it install
 devtools::install_github(repo = "thednainus/sarscov2simulations")
 
 # After installing the package:
-library(senegalHIVmodel)
+library(sarscov2simulations)
 ```
