@@ -3,12 +3,11 @@ Type: Package
 Title: Script to simulate phylogenetic trees and sequence data for SARS-CoV-2
 Version: 0.1.0
 Author: Fabricia F. Nascimento, Erik Volz, Igor Siveroni
-Maintainer: Erik Volz <erik.volz@gmail.com>
+Maintainer: Fabricia F. Nascimento <thednainus@yahoo.com>
 Description: Functions to simulate coalescet trees based on structured coalescent
     models. This package also contains functions to simulate sequence data 
     based on phylogenetic trees.
-    Use four spaces when indenting paragraphs within the Description.
-Requires: phydynR, lhs
+Requires: phydynR, lhs, phyclust, ape
 License: LGPL
 Encoding: UTF-8
 LazyData: true
