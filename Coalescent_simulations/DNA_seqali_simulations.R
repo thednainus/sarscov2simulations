@@ -11,9 +11,7 @@ source("Tree_Simulations.R")
 
 
 # Simulate DNA sequence alignment
-# I used set.seed(29052019) for Erik simulations
-# I used set.seed(30111943) for ABC simulations
-set.seed(30111943)
+set.seed(29052019)
 sim_dna <- lapply(tres, function(x) simulate_dna(x))
 
 size <- length(sim_dna)

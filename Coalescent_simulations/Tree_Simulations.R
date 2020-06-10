@@ -7,15 +7,10 @@ library(reshape2)
 #setwd("Coalescent_simulations/")
 source("seijrRmodel.R")
 
-#set.seed(25011979)
+set.seed(25011979)
 # sample parameters (default is set to 100)
 # parameters that varies
-# for the simulation test that Erik set up I used n=30
-# and I set seed to set.seed(25011979)
-# for simulation test done for ABC analysis test I used seed = 17091975
-set.seed(17091975)
-#parameters <- sampler(n = 30)
-parameters <- sampler()
+parameters <- sampler(n = 30)
 #parameters that are fixed
 parameters["tau"] <- 74
 parameters["p_h"] <- 0.2
@@ -65,12 +60,9 @@ sim_trees <- function(parameters){
 
 # create a list of simulated phylogenetic trees
 #tres <- apply(parameters, 1, FUN = sim_trees)
-# seed set.seed(25011979) was used for Erik simulations
-# for ABC simulations I used seed 17091975
-set.seed(17091975)
-# the code line below was used for simulations set up by Erik
-#tres <- apply(parameters[c(3,5,8,9,17),], 1, FUN = sim_trees)
-tres <- apply(parameters, 1, FUN = sim_trees)
+set.seed(25011979)
+# the code line below was used for the simulations
+tres <- apply(parameters[c(3,5,8,9,17),], 1, FUN = sim_trees)
 #saveRDS(tres, file = "simulated_trees25011979.rds")
 
 
