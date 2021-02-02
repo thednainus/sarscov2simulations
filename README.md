@@ -18,10 +18,10 @@ This R package was developed and tested on a macOS High Sierra version 10.13.6
 
 Note these are the version we used, however the scripts should work with other R package versions.
 
-* devtools 2.3.2 
-* lhs version 1.1.1
-* phyclust 0.1.29
-* ape version 5.4.1
+* **devtools** version 2.3.2 
+* **lhs** version 1.1.1
+* **phyclust** version 0.1.29
+* **ape** version 5.4.1
 * [phydynR version 0.2.0](https://github.com/emvolz-phylodynamics/phydynR)
 
 
