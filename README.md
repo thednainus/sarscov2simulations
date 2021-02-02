@@ -62,14 +62,17 @@ library(sarscov2simulations)
 
 # Output Example
 
-The aim of these scprits was to generate DNA sequence alignments consistent to a epidemiological model and phylogenetic tree. This sequences alignment was used in BEAST to 
+The aim of these scprits was to generate DNA sequence alignments consistent to a epidemiological model and phylogenetic tree. This sequences alignment was used with [PhyDyn](https://github.com/mrc-ide/PhyDyn/) and [BEAST 2](https://www.beast2.org/) to 
 check whether we could estimate the parameters of the epidemiological model using simulated data (see [paper](https://www.medrxiv.org/content/10.1101/2020.09.15.20194258v1)).
 
 After running script [DNA_seqali_simulations.R](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/DNA_seqali_simulations.R), you should get sequence alignment (all data and deduplicated data) as exemplified [here](https://github.com/thednainus/sarscov2simulations/tree/master/Output_Example).
 Note that sequence name is in the form of **simSeq99|2020.248|_Il**
+
 where **simSeq99** is the sequence name; 
 
 **2020.248** is sampling date in decimal form and; 
 
 **Il** is the compartment the "individual" is classified, in this case it is infected with low rate of transmission.
+
+Note that this nomenclature is following guidelines described in [here](https://github.com/mrc-ide/PhyDyn/wiki/Structured-Tree-Likelihood) for PhyDyn using [BEAST 2](https://www.beast2.org/).
 
