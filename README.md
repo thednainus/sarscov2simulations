@@ -74,5 +74,5 @@ where **simSeq99** is the sequence name;
 
 **Il** is the compartment the "individual" is classified, in this case it is infected with low rate of transmission.
 
-Note that this nomenclature is following guidelines described in [here](https://github.com/mrc-ide/PhyDyn/wiki/Structured-Tree-Likelihood) for PhyDyn using [BEAST 2](https://www.beast2.org/).
+Note that this nomenclature is following guidelines described in [here](https://github.com/mrc-ide/PhyDyn/wiki/Structured-Tree-Likelihood) for [PhyDyn](https://github.com/mrc-ide/PhyDyn/) using [BEAST 2](https://www.beast2.org/).
 
