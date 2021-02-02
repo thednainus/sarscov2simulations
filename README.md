@@ -10,14 +10,41 @@ The script that contains the epidemiological model used to simulate phyloegentic
 
 ## System Requirement
 
+### Operating System
 This R package was developed and tested on a macOS High Sierra version 10.13.6
+
+
+### Additional R Packages Required
+
+Note these are the version we used, however the scripts should work with other R package versions.
+
+* devtools 2.3.2 
+* lhs version 1.1.1
+* phyclust 0.1.29
+* ape version 5.4.1
+* [phydynR version 0.2.0](https://github.com/emvolz-phylodynamics/phydynR)
 
 
 ## How to install it?
 
-First you will need to install package **devtools** if you don't have it installed already.
+You will need to install all abovementioned R packages as below (if not alreay installed in your computer):
 
 ```r
+install.packages("devtools")
+install.packages("lhs")
+install.packages("phyclust")
+install.packages("ape")
+
+library(devtools)
+# to install phydynR
+install_github("emvolz-phylodynamics/phydynR")
+# If installing phydynR from install_github does not work, and you get the 
+#"#error "*** C++11 compiler required; enable C++11 mode in your compiler, or use an earlier version of Armadillo"
+# then type type in R the following (but first remove the comment symbol #) and then try install phydynR again
+# Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
+
+
+# to install this R package
 devtools::install_github(repo = "thednainus/sarscov2simulations")
 
 # After installing the package:
