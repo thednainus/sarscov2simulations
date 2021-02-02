@@ -68,6 +68,8 @@ check whether we could estimate the parameters of the epidemiological model usin
 After running script [DNA_seqali_simulations.R](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/DNA_seqali_simulations.R), you should get sequence alignment (all data and deduplicated data) as exemplified [here](https://github.com/thednainus/sarscov2simulations/tree/master/Output_Example).
 Note that sequence name is in the form of **simSeq99|2020.248|_Il**
 where **simSeq99** is the sequence name; 
+
 **2020.248** is sampling date in decimal form and; 
+
 **Il** is the compartment the "individual" is classified, in this case it is infected with low rate of transmission.
 
