@@ -37,13 +37,13 @@ install.packages("ape")
 
 library(devtools)
 # to install phydynR
-install_github("emvolz-phylodynamics/phydynR")
+devtools::install_github("emvolz-phylodynamics/phydynR")
 # If installing phydynR from install_github does not work, and you get the 
 #"#error "*** C++11 compiler required; enable C++11 mode in your compiler, or use an earlier version of Armadillo"
 # then type type in R the following (but first remove the comment symbol #) and then try install phydynR again
 # Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
 # if you still get an error, you may need to try
-# install_github("emvolz-phylodynamics/phydynR", force = TRUE)
+# devtools::install_github("emvolz-phylodynamics/phydynR", force = TRUE)
 
 
 # to install this R package
