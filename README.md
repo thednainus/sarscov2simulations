@@ -62,10 +62,10 @@ library(sarscov2simulations)
 
 # Output Example
 
-The aim of these scprit was to generate DNA sequence alignment consistent to a epidemiological model and a phylogenetic tree. This sequences alignment was used in BEAST to 
-estimate the parameters of the epidemiological model (see [paper](https://www.medrxiv.org/content/10.1101/2020.09.15.20194258v1)).
+The aim of these scprits was to generate DNA sequence alignments consistent to a epidemiological model and phylogenetic tree. This sequences alignment was used in BEAST to 
+check whether we could estimate the parameters of the epidemiological model using simulated data (see [paper](https://www.medrxiv.org/content/10.1101/2020.09.15.20194258v1)).
 
-After running script [DNA_seqali_simulations.R](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/DNA_seqali_simulations.R), you should get sequence alignment as exemplified [here](https://github.com/thednainus/sarscov2simulations/tree/master/Output_Example).
+After running script [DNA_seqali_simulations.R](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/DNA_seqali_simulations.R), you should get sequence alignment (all data and deduplicated data) as exemplified [here](https://github.com/thednainus/sarscov2simulations/tree/master/Output_Example).
 Note that sequence name is in the form of **simSeq99|2020.248|_Il**
 where **simSeq99** is the sequence name; 
 **2020.248** is sampling date in decimal form and; 
