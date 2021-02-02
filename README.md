@@ -6,7 +6,8 @@ You can find a script to simulate phylogenetic trees [here](https://github.com/t
 
 You can find a script to simulate DNA sequence alignments using a simulated phylogenetic tree [here](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/DNA_seqali_simulations.R)
 
-The script that contains the epidemiological model used to simulate phyloegentic trees are [here](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/seijrRmodel.R). You will need the [phydynR](https://github.com/emvolz-phylodynamics/phydynR) package to use these scripts.
+The script that contains the epidemiological model used to simulate phyloegentic trees are [here](https://github.com/thednainus/sarscov2simulations/blob/master/Coalescent_simulations/seijrRmodel.R).
+
 
 ## System Requirement
 
@@ -48,6 +49,12 @@ devtools::install_github("emvolz-phylodynamics/phydynR")
 
 # to install this R package
 devtools::install_github(repo = "thednainus/sarscov2simulations")
+
+# Alternatively, you can download the zip file from GitHub
+# Unzip the file and run the following command on your computer (don't forget to remove the comment symbol #)
+# install.packages(path_to_file, repos = NULL, type="source")
+# where path_to_file is the path to the unziped directory that you downloaded from GitHub
+
 
 # After installing the package:
 library(sarscov2simulations)
