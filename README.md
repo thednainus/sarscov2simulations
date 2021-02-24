@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4559446.svg)](https://doi.org/10.5281/zenodo.4559446)
+
+
 # Simulations for SARS-CoV-2 
 
 This repository contains scripts to simulate phylogenetic trees and DNA sequence alignment similar to those observed for SARS-CoV-2.
