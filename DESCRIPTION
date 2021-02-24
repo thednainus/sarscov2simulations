@@ -1,7 +1,7 @@
 Package: sarscov2simulations
 Type: Package
 Title: Script to simulate phylogenetic trees and sequence data for SARS-CoV-2
-Version: 0.1.0
+Version: 1.0.0
 Author: Fabricia F. Nascimento, Erik Volz, Igor Siveroni
 Maintainer: Fabricia F. Nascimento <thednainus@yahoo.com>
 Description: Functions to simulate coalescet trees based on structured coalescent
