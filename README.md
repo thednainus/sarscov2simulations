@@ -51,7 +51,7 @@ devtools::install_github("emvolz-phylodynamics/phydynR")
 
 # Updated on 6 February 2023:
 #If you are using the new apple M1/M2 chip, you can getting an error related to gfortran to compile/install phydyn R,
-#you can have a look at the instructions described [here](https://github.com/RubD/Giotto_site/issues/11), 
+#you can have a look at the instructions described at https://github.com/RubD/Giotto_site/issues/11, 
 #update gfortran as explained in the link and then try to install phydynR again. It should solve the problem.
 
 
