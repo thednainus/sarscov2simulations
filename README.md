@@ -49,6 +49,12 @@ devtools::install_github("emvolz-phylodynamics/phydynR")
 # if you still get an error, you may need to try
 # devtools::install_github("emvolz-phylodynamics/phydynR", force = TRUE)
 
+# Updated on 6 February 2023:
+#If you are using the new apple M1/M2 chip, you can getting an error related to gfortran to compile/install phydyn R,
+#you can have a look at the instructions described [here](https://github.com/RubD/Giotto_site/issues/11), 
+#update gfortran as explained in the link and then try to install phydynR again. It should solve the problem.
+
+
 
 # to install this R package
 devtools::install_github(repo = "thednainus/sarscov2simulations")
